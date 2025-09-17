@@ -293,3 +293,16 @@ Please follow the instructions at prompts/start.md:
 ```
 
 This ensures proper routing, classification, and cascade management for all changes!
+
+## ⚠️ Important Requirements & Notes
+
+**Note**: This process is elaborate and not all LLMs can follow the instructions correctly at this time.
+
+**Note**: The prompts require specific tools to work properly:
+- Creating separate tasks under different roles
+- File system operations (read/write/modify)
+- Command execution capabilities
+
+**Note**: Creating separate tasks with different roles serves two purposes:
+1. Allows flexibility to use different LLMs for different types of tasks
+2. Clears the current context, which enables the process to work for hours without context overflow issues
